@@ -10,11 +10,16 @@
 		845DF0771B1E5E4C0049A479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF0761B1E5E4C0049A479 /* main.m */; };
 		845DF07A1B1E5E4C0049A479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF0791B1E5E4C0049A479 /* AppDelegate.m */; };
 		845DF07D1B1E5E4C0049A479 /* GOTCharacters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845DF07B1B1E5E4C0049A479 /* GOTCharacters.xcdatamodeld */; };
-		845DF0801B1E5E4C0049A479 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF07F1B1E5E4C0049A479 /* ViewController.m */; };
+		845DF0801B1E5E4C0049A479 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF07F1B1E5E4C0049A479 /* RootViewController.m */; };
 		845DF0831B1E5E4C0049A479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DF0811B1E5E4C0049A479 /* Main.storyboard */; };
 		845DF0851B1E5E4C0049A479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845DF0841B1E5E4C0049A479 /* Images.xcassets */; };
 		845DF0881B1E5E4C0049A479 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845DF0861B1E5E4C0049A479 /* LaunchScreen.xib */; };
 		845DF0941B1E5E4C0049A479 /* GOTCharactersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF0931B1E5E4C0049A479 /* GOTCharactersTests.m */; };
+		845DF09F1B1E5EEE0049A479 /* ImportedThronesCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF09E1B1E5EEE0049A479 /* ImportedThronesCharacter.m */; };
+		845DF0A21B1E5FC80049A479 /* AddCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF0A11B1E5FC80049A479 /* AddCharacterViewController.m */; };
+		845DF0A41B1E60360049A479 /* got.json in Resources */ = {isa = PBXBuildFile; fileRef = 845DF0A31B1E60360049A479 /* got.json */; };
+		845DF0AA1B1E63280049A479 /* ThronesCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF0A91B1E63280049A479 /* ThronesCharacter.m */; };
+		845DF0AD1B1E7E800049A479 /* CharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF0AC1B1E7E800049A479 /* CharacterDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +39,23 @@
 		845DF0781B1E5E4C0049A479 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		845DF0791B1E5E4C0049A479 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		845DF07C1B1E5E4C0049A479 /* GOTCharacters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GOTCharacters.xcdatamodel; sourceTree = "<group>"; };
-		845DF07E1B1E5E4C0049A479 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		845DF07F1B1E5E4C0049A479 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845DF07E1B1E5E4C0049A479 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		845DF07F1B1E5E4C0049A479 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		845DF0821B1E5E4C0049A479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845DF0841B1E5E4C0049A479 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		845DF0871B1E5E4C0049A479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		845DF08D1B1E5E4C0049A479 /* GOTCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOTCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845DF0921B1E5E4C0049A479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845DF0931B1E5E4C0049A479 /* GOTCharactersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOTCharactersTests.m; sourceTree = "<group>"; };
+		845DF09D1B1E5EEE0049A479 /* ImportedThronesCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportedThronesCharacter.h; sourceTree = "<group>"; };
+		845DF09E1B1E5EEE0049A479 /* ImportedThronesCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportedThronesCharacter.m; sourceTree = "<group>"; };
+		845DF0A01B1E5FC80049A479 /* AddCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCharacterViewController.h; sourceTree = "<group>"; };
+		845DF0A11B1E5FC80049A479 /* AddCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCharacterViewController.m; sourceTree = "<group>"; };
+		845DF0A31B1E60360049A479 /* got.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = got.json; sourceTree = "<group>"; };
+		845DF0A81B1E63280049A479 /* ThronesCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThronesCharacter.h; sourceTree = "<group>"; };
+		845DF0A91B1E63280049A479 /* ThronesCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThronesCharacter.m; sourceTree = "<group>"; };
+		845DF0AB1B1E7E800049A479 /* CharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetailViewController.h; sourceTree = "<group>"; };
+		845DF0AC1B1E7E800049A479 /* CharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +97,19 @@
 		845DF0731B1E5E4C0049A479 /* GOTCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				845DF0811B1E5E4C0049A479 /* Main.storyboard */,
+				845DF07E1B1E5E4C0049A479 /* RootViewController.h */,
+				845DF07F1B1E5E4C0049A479 /* RootViewController.m */,
+				845DF0A01B1E5FC80049A479 /* AddCharacterViewController.h */,
+				845DF0A11B1E5FC80049A479 /* AddCharacterViewController.m */,
+				845DF0AB1B1E7E800049A479 /* CharacterDetailViewController.h */,
+				845DF0AC1B1E7E800049A479 /* CharacterDetailViewController.m */,
+				845DF0A81B1E63280049A479 /* ThronesCharacter.h */,
+				845DF0A91B1E63280049A479 /* ThronesCharacter.m */,
+				845DF09D1B1E5EEE0049A479 /* ImportedThronesCharacter.h */,
+				845DF09E1B1E5EEE0049A479 /* ImportedThronesCharacter.m */,
 				845DF0781B1E5E4C0049A479 /* AppDelegate.h */,
 				845DF0791B1E5E4C0049A479 /* AppDelegate.m */,
-				845DF07E1B1E5E4C0049A479 /* ViewController.h */,
-				845DF07F1B1E5E4C0049A479 /* ViewController.m */,
-				845DF0811B1E5E4C0049A479 /* Main.storyboard */,
 				845DF0841B1E5E4C0049A479 /* Images.xcassets */,
 				845DF0861B1E5E4C0049A479 /* LaunchScreen.xib */,
 				845DF07B1B1E5E4C0049A479 /* GOTCharacters.xcdatamodeld */,
@@ -99,6 +121,7 @@
 		845DF0741B1E5E4C0049A479 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				845DF0A31B1E60360049A479 /* got.json */,
 				845DF0751B1E5E4C0049A479 /* Info.plist */,
 				845DF0761B1E5E4C0049A479 /* main.m */,
 			);
@@ -204,6 +227,7 @@
 			files = (
 				845DF0831B1E5E4C0049A479 /* Main.storyboard in Resources */,
 				845DF0881B1E5E4C0049A479 /* LaunchScreen.xib in Resources */,
+				845DF0A41B1E60360049A479 /* got.json in Resources */,
 				845DF0851B1E5E4C0049A479 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845DF0AA1B1E63280049A479 /* ThronesCharacter.m in Sources */,
+				845DF0AD1B1E7E800049A479 /* CharacterDetailViewController.m in Sources */,
+				845DF0A21B1E5FC80049A479 /* AddCharacterViewController.m in Sources */,
 				845DF07A1B1E5E4C0049A479 /* AppDelegate.m in Sources */,
 				845DF0771B1E5E4C0049A479 /* main.m in Sources */,
-				845DF0801B1E5E4C0049A479 /* ViewController.m in Sources */,
+				845DF0801B1E5E4C0049A479 /* RootViewController.m in Sources */,
 				845DF07D1B1E5E4C0049A479 /* GOTCharacters.xcdatamodeld in Sources */,
+				845DF09F1B1E5EEE0049A479 /* ImportedThronesCharacter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +448,7 @@
 				845DF0991B1E5E4C0049A479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845DF09A1B1E5E4C0049A479 /* Build configuration list for PBXNativeTarget "GOTCharactersTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +457,7 @@
 				845DF09C1B1E5E4C0049A479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
